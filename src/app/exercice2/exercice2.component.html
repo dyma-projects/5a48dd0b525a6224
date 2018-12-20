@@ -1,7 +1,7 @@
 <h3>Exercice 2 : mise en place d'un décorateur Viewchild </h3>
 <br />
-<input type="text" >
+<input type="text" (input)="update($event.target.value)" >
 <br />
 <br />
-<span> valeur de l'input : {{ valeur }}</span>
+<app-exercice2-enfant></app-exercice2-enfant>
 <hr>
